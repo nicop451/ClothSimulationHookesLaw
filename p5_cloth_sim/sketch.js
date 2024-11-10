@@ -1,9 +1,9 @@
 let ptc_array = [];
 let spr_array = [];
 
-let spacing = 8;
-let rows = 35;
-let cols = 50;
+let spacing = 16;
+let rows = 25;
+let cols = 30;
 
 let t_x = -150;
 let t_y = 0;
@@ -15,12 +15,10 @@ let borderCollisions = false;
 let showParticle = false;
 let rowsToGrab = 1;
 
-let def_k = 0.3;
+let def_k = 0.4;
 let def_d = 0;
 let baseSpringTearStrength = 11;
 let RandomTearStrengthMultRange = 3;
-
-
 
 
 //Adjust Variables switch between softBody and cloth
